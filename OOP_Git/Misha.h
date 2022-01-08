@@ -2,6 +2,7 @@
 
 // сделай функцию для сложения
 
-int add(int a, int b) {
+template <class T>
+T add(T a, T b) {
 	return a + b;
 }
